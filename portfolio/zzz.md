@@ -1,3 +1,6 @@
+Мaкет figma FIGMA (v67 - 0.y)
+https://www.figma.com/file/1A1SJ7FYyMUiBqhU3WUiBI/Portfolio
+
 portfolio#1 - Фиксированная вёрстка
 https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part1.md
 Советы по выполнению задания Portfolio#1-Фиксированная вёрстка
@@ -8,9 +11,6 @@ https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage0-hi
 Демо https://cv-hints.netlify.app/
 
 https://github.com/rolling-scopes-school/v6767404-JSFEPRESCHOOL
-
-Мaкет figma FIGMA (v67 - 0.y)
-https://www.figma.com/file/1A1SJ7FYyMUiBqhU3WUiBI/Portfolio
 
 Stage#0. FIGMA
 https://github.com/rolling-scopes-school/tasks/tree/master/stage0/modules/figma
