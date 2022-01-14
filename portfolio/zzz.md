@@ -24,3 +24,7 @@ Header
 https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part1-hints.md#header
 
 https://codepen.io/irinainina/pen/abvGBwP
+
+git add .
+git commit -m "feat: add header"
+git push origin portfolio
