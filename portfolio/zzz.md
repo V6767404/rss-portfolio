@@ -33,3 +33,22 @@ https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portf
 
  Shift + Alt + F
  https://validator.w3.org/
+
+7.
+ Создайте и замержите Pull Request из ветки portfolio в ветку gh-pages
+ Название Pull Request произвольное. Описывать данный Pull Request нет необходимости.
+ Через 10-15 минут после мержа, иногда больше, деплой вашей работы будет доступен по ссылке
+https://rolling-scopes-school.github.io/GITHUB-USERNAME-JSFEPRESCHOOL/portfolio/
+https://rolling-scopes-school.github.io/v6767404-JSFEPRESCHOOL/portfolio/
+
+https://www.hostinger.ru/rukovodstva/kak-pereimenovat-vetku-git#-Git
+
+https://github.com/rolling-scopes-school/v6767404-JSFEPRESCHOOL
+
+
+
+###good totorial liks
+https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage0-hints.md
+Демо https://cv-hints.netlify.app/
+https://www.youtube.com/playlist?list=PL5_s7xdj2Vsw-bCx5nOZJMFIiHwRgok--
+https://www.youtube.com/watch?v=vkq7ckCkvjYhttps://github.com/
