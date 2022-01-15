@@ -28,3 +28,8 @@ https://codepen.io/irinainina/pen/abvGBwP
 git add .
 git commit -m "feat: add header"
 git push origin portfolio
+
+https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part1.md
+
+ Shift + Alt + F
+ https://validator.w3.org/
