@@ -25,6 +25,8 @@ https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portf
 
 https://codepen.io/irinainina/pen/abvGBwP
 
+git checkout -b "portfolio"
+
 git add .
 git commit -m "feat: add header"
 git push origin portfolio
@@ -44,6 +46,8 @@ https://rolling-scopes-school.github.io/v6767404-JSFEPRESCHOOL/portfolio/
 https://www.hostinger.ru/rukovodstva/kak-pereimenovat-vetku-git#-Git
 
 https://github.com/rolling-scopes-school/v6767404-JSFEPRESCHOOL
+
+FINAL https://rolling-scopes-school.github.io/v6767404-JSFEPRESCHOOL/portfolio/
 
 
 
