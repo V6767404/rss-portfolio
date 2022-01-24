@@ -29,7 +29,7 @@
             </ul>
 
         </nav>
-        <div class="">
+        <div class="language-menu">
             <ul class="language">
                 <li><a href="#!" id="lng-active">en</a></li>
                 <li><span>/</span></li>
@@ -37,12 +37,18 @@
             </ul>
             <!-- <a href="#" class="en">en</a>/<a href="#" class="ru">ru</a> -->
         </div>
+        <div class="burger">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        </div>
 
     </div>
 </header>
 
 <main class="main">
     <div class="container main-container">
+
         <section class="section hero-container" id="hero">
             <h1>Alexa Rise</h1>
             <p class="hero-text">Save sincere emotions, romantic feelings and happy moments of life together with
@@ -80,7 +86,6 @@
             </div>
         </section>
 
-
         <section class="section portfolio-container" id="portfolio">
             <div class="portfolio-title title-gold">
                 <div></div>
@@ -103,7 +108,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="portfolio-images">
+            <div class="portfolio-imgset">
                 <img src="assets/img/portfolio-img01.jpg" alt="portfolio-img">
                 <img src="assets/img/portfolio-img02.jpg" alt="portfolio-img">
                 <img src="assets/img/portfolio-img03.jpg" alt="portfolio-img">
@@ -112,6 +117,7 @@
                 <img src="assets/img/portfolio-img06.jpg" alt="portfolio-img">
             </div>
         </section>
+
         <section class="section video-container" id="video">
             <div class="video-title title-gold">
                 <div></div>
@@ -120,38 +126,101 @@
             </div>
             <div class="video-player">
                 <a href="#" class="button"></a>
-                <!-- <button></button> -->
+                <button></button>
+            </div>
+        </section>
+
+        <section class="section price-container" id="price">
+            <div class="price-title title-gold">
+                <div></div>
+                <h2>Price</h2>
+                <div></div>
+            </div>
+            <div class="price-grid">
+                <div class="price-item">
+                    <h3>Standard</h3>
+                    <p class="price">500 $</p>
+                    <div class="price-itemtext">
+                        <p>One location</p>
+                        <p>120 photos in color</p>
+                        <p>12 photos in retouch</p>
+                        <p>Readiness 2-3 weeks</p>
+                        <p>Make up, visage</p>
+                    </div>
+                    <button>Order shooting</button>
+                </div>
+                <div class="price-item">
+                    <h3>Premium</h3>
+                    <p class="price">700 $</p>
+                    <div class="price-itemtext">
+                        <p>One or two locations</p>
+                        <p>200 photos in color</p>
+                        <p>20 photos in retouch</p>
+                        <p>Readiness 1-2 weeks</p>
+                        <p>Make up, visage</p>
+                    </div>
+                    <button>Order shooting</button>
+                </div>
+                <div class="price-item">
+                    <h3>Gold</h3>
+                    <p class="price">1000 $</p>
+                    <div class="price-itemtext">
+                        <p>Three locations or more</p>
+                        <p>300 photos in color</p>
+                        <p>50 photos in retouch</p>
+                        <p>Readiness 1 week</p>
+                        <p>Make up, visage, hairstyle</p>
+                    </div>
+                    <button>Order shooting</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts-container" id="contacts">
+            <div class="contacts-form">
+                <h2>Contact me</h2>
+
+                <form method="post">
+                    <input type="email" placeholder="E-mail">
+                    <input type="tel" placeholder="Phone">
+                    <textarea placeholder="Message"></textarea>
+                    <button type="submit">Send message</button>
+                </form>
             </div>
         </section>
 
 
-        <section class="section" id="price">
-            <h2 class="section-title">price</h2>
-        </section>
-        <section class="section" id="contacts">
-            <h2 class="section-title">contacts</h2>
-        </section>
     </div>
 </main>
 
 <footer class="footer">
     <div class="container footer-container">
-        <div>
-            © 2022
-            <a href="https://github.com/v6767404" class="link-fotter">v6767404</a>
+        <div><span>©</span><span>2022</span>
+            <a href="https://github.com/v6767404" class="github">github</a>
         </div>
 
-        <div><a href="https://rs.school/js/" class="link-fotter">Rolling Scopes School</a></div>
+        <div><a href="https://rs.school/js/" class="rsschool">Rolling Scopes School</a></div>
 
-        <div>
-            <a href="#" class="instagram"><img src="./assets/svg/inst.svg" alt="svg" width="27" height="27"></a>
-            <a href="#" class="facebook"><img src="./assets/svg/fb.svg" alt="svg" width="27" height="27"></a>
-            <a href="#" class="twitter"><img src="./assets/svg/twit.svg" alt="svg" width="27" height="27"></a>
-            <a href="#" class="pinterest"><img src="./assets/svg/pin.svg" alt="svg" width="27" height="27"></a>
+
+        <!-- <ul class="social-container">
+            <li><a href="#" class ="social-ico logo-instagram"></a></li>
+            <li><a href="#" class ="social-ico logo-facebook"></a></li>
+            <li><a href="#" class ="social-ico logo-twitter"></a></li>
+            <li><a href="#" class ="social-ico logo-pinterest"></a></li>
+        </ul> -->
+
+
+        <div class="other-social">
+
+            <ul class="social-container">
+                <li><a href="#" class="social-ico"><img src="./assets/svg/inst.svg" alt="svg"></a></li>
+                <li><a href="#" class="social-ico"><img src="./assets/svg/fb.svg" alt="svg"></a></li>
+                <li><a href="#" class="social-ico"><img src="./assets/svg/twit.svg" alt="svg"></a></li>
+                <li><a href="#" class="social-ico"><img src="./assets/svg/pin.svg" alt="svg"></a></li>
+            </ul>
         </div>
+    </div>    
 
-
-    </div>
 </footer>
 
 <script src="./index.js"></script>
