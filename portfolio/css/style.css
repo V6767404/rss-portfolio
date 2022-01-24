@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: #414141;
+  background-color: #000000;
 }
 
 header,
@@ -18,7 +18,6 @@ main,
 footer {
   margin: 0 auto;
   max-width: 1440px;
-  /* max-width: 1440px; */
   background-color: #000000;
 }
 
@@ -27,7 +26,6 @@ footer {
     margin: 0 auto;
     padding: 0 20px;
 } */
-
 
 .header-container {
   font-family: "Inter", sans-serif;
@@ -270,13 +268,15 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  column-gap: 5px;
   margin-bottom: 55px;
 }
 
 .portfolio-navigation ul {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   column-gap: 5px;
+  row-gap: 5px;
   margin-bottom: 5px;
 }
 
@@ -307,7 +307,7 @@ footer {
   color: #ffffff;
 }
 
-.portfolio-images {
+.portfolio-imgset {
   display: grid;
   max-width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
@@ -331,6 +331,7 @@ footer {
 
 .video-player {
   background-image: url(../assets/img/video-player.jpg);
+  background-position: 30% 60%;
   width: 100%;
   height: 705px;
   position: relative;
@@ -343,8 +344,6 @@ footer {
   width: 130px;
   height: 130px;
   background-image: url("../assets/svg/video-playbtn.svg");
-  /* -webkit-mask-image: url(../assets/svg/video-playbtn.svg); */
-  /* mask-image: image(url(../assets/svg/video-playbtn.svg), skyblue); */
   background-repeat: no-repeat;
   background-size: contain;
   cursor: pointer;
@@ -410,7 +409,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Inter", serif;;
+  font-family: "Inter", serif;
   font-style: normal;
   color: #ffffff;
   font-weight: 400;
@@ -423,7 +422,7 @@ footer {
   height: 55px;
   border: none;
   background-color: #bdae82;
-  font-family: "Inter", serif;;
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -442,6 +441,7 @@ footer {
   justify-content: flex-end;
   padding: 60px 20px 0 20px;
   background-image: url(../assets/img/contacts-bg.jpg);
+  background-position: 30% 0%;
 }
 .contacts-form {
   display: flex;
@@ -509,18 +509,6 @@ footer {
   color: #ffffff;
 }
 
-/*Footer (draft)*/
-
-/* a {
-    color: #ffffff;
-    text-decoration: none;
-    transition: color 0.5s;
-}
-
-a:hover {
-    color: #bdae82;
-} */
-
 .footer-container {
   font-family: "Inter", serif;
   display: flex;
@@ -532,8 +520,6 @@ a:hover {
   letter-spacing: 1px;
   font-size: 20px;
   font-weight: 400;
-  /* background-color: #615d5d; */
-  /* line-height: 50px; */
 }
 
 .footer-container a {
@@ -604,4 +590,209 @@ a:hover {
 }
 .logo-pinterest {
   background-image: url("../assets/svg/pin.svg");
+}
+
+/*ADAPTIVE*/
+/*BURGER*/
+
+.burger {
+  display: none;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: space-between;
+  /* justify-content: center; */
+  align-items: center;
+  width: 50px;
+  height: 28px;
+  cursor: pointer;
+  user-select: none;
+  z-index: 2;
+  /* position: relative; */
+  margin-left: 20px;
+}
+
+.line {
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  /* z-index: 15; */
+  transition: all 0.3s;
+  /* transition: all 0.3s ease-in-out; */
+}
+
+.burger.open .line1 {
+  transform: rotate(-45deg) translate(-3px, 14px);
+}
+.burger.open .line2 {
+  opacity: 0;
+}
+.burger.open .line3 {
+  transform: rotate(45deg) translate(-3px, -14px);
+}
+
+@media (max-width: 768px) {
+  .nav-header {
+    display: none;
+  }
+  .language-menu {
+    /* display: none; */
+    margin-left: auto;
+  }
+
+  .burger {
+    /* display: block; */
+    display: flex;
+  }
+
+  .nav-header.adaptive {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    max-width: 620px;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+    background-color: #000000;
+  }
+
+  .nav-list.adaptive {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    padding-top: 134px;
+    padding-left: 127px;
+  }
+
+  .nav-link {
+    font-size: 35px;
+    line-height: 72.55px;
+  }
+
+  .title-gold h2 {
+    font-size: 32px;
+  }
+  .title-gold {
+    margin-top: 80px;
+    margin-bottom: 36px;
+  }
+
+  /* .header-container,
+  .hero-container,
+  .portfolio-container,
+  .skills-container,
+  .video-container,
+  .price-container,
+  .contacts-container,
+  .footer-container {
+  
+  } */
+
+  .header-container {
+    padding: 0 60px;
+    /* background: url("../assets/img/bg_adaptive.jpg"); */
+  }
+
+  .hero-container {
+    height: 500px;
+    padding: 0 60px;
+    padding-top: 15%;
+
+    /* padding-left: 8%;
+    padding-bottom: 19.7%; */
+    /* background: url("../assets/img/bg_adaptive.jpg");
+    background-position: center -90px; */
+    /* background-position: 50% 0%; */
+    /* background-position: -5px -30px;
+    background-size: auto 620px; */
+  }
+  .hero-container h1 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 64px;
+  }
+
+  .hero-container .hero-text {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    line-height: 24.2px;
+    max-width: 390px;
+  }
+
+  .skills-wrap {
+    margin-top: 9px;
+    margin-bottom: 22px;
+  }
+  .skills-wrap-card {
+    height: 224px;
+  }
+  .skills-wrap h4 {
+    margin-top: 30px;
+  }
+  .skills-wrap p {
+    line-height: 22px;
+  }
+
+  .video-container {
+    padding: 0;
+  }
+
+  .video-player {
+    height: 418px;
+  }
+
+  .video-player .button {
+    width: 65px;
+    height: 65px;
+  }
+
+  .price-item {
+    width: 420px;
+  }
+
+  .contacts-container {
+    height: 600px;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 60px;
+  }
+  .contacts-form h2 {
+    font-size: 32px;
+  }
+
+  .contacts-form form {
+    width: 100%;
+    align-items: center;
+  }
+  .contacts-form form input,
+  .contacts-form form textarea {
+    width: 100%;
+  }
+
+  .footer-container {
+    height: 190px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 550px) {
+  .portfolio-imgset {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  }
+  .portfolio-imgset img {
+    max-width: 100%;
+  }
+  
+  .price-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  }
+  .price-item {
+    max-width: 100%;
+  }
 }
