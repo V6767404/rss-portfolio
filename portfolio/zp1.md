@@ -2,7 +2,7 @@
 https://www.figma.com/file/1A1SJ7FYyMUiBqhU3WUiBI/Portfolio
 
 portfolio#1 - Фиксированная вёрстка
-https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part1.md
+https://github.cЖom/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part1.md
 Советы по выполнению задания Portfolio#1-Фиксированная вёрстка
 https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part1-hints.md
 
