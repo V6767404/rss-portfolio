@@ -54,6 +54,23 @@ footer {
     contrast(87%);
 }
 
+.themelogo {
+  width: 50px;
+  height: 40px;
+  background-image: url("../assets/svg/theme_sun.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+  margin-left: 20px;
+}
+.themelogo:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}
+.themelogo moon {
+  background-image: url("../assets/svg/theme_moon.svg");
+}
+
 .nav-header {
   margin-left: auto;
 }
@@ -117,11 +134,11 @@ footer {
   text-align: center;
 }
 
-.language #lng-active {
+.language .langselect.active {
   color: #bdae82;
 }
 
-.language #lng-active:hover {
+.language .langselect.active:hover {
   color: #ffffff;
 }
 
