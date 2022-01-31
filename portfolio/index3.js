@@ -12,10 +12,10 @@ function getTranslation(language){
         dataList.forEach((el) => {
         el.textContent = i18Obj[language][el.dataset.i18]
     });
-    console.log('done');
+    // console.log('done');
     
 
 }
-console.log('start');
+// console.log('start');
 lang_ru.addEventListener('click', () => {getTranslation('ru')});
 lang_en.addEventListener('click', () => {getTranslation('en')});
