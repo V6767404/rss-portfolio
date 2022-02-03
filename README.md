@@ -1,2 +1,1 @@
-# v6767404-JSFEPRESCHOOL
-Private repository for @v6767404
+https://v6767404.github.io/rss-portfolio/portfolio/
